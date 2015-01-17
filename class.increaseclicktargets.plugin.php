@@ -3,7 +3,7 @@
 $PluginInfo['IncreaseClickTargets'] = array(
     'Name' => 'Increase Click Targets',
     'Description' => 'Makes the whole row clickable for various items.',
-    'Version' => '0.1',
+    'Version' => '0.2',
     // The default mobile theme implements this already.
     'MobileFriendly' => false,
     'Author' => 'Bleistivt',
