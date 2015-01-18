@@ -55,7 +55,6 @@ $(function () {
         })
         .css('cursor', 'pointer');
 
-
     // MeMenu
     $('div.MeMenu')
         .on('click', 'li.Item', function () {
