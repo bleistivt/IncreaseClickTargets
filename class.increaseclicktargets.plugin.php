@@ -7,7 +7,8 @@ $PluginInfo['IncreaseClickTargets'] = array(
     // The default mobile theme implements this already.
     'MobileFriendly' => false,
     'Author' => 'Bleistivt',
-    'AuthorUrl' => 'http://bleistivt.net'
+    'AuthorUrl' => 'http://bleistivt.net',
+    'License' => 'GNU GPL2'
 );
 
 class IncreaseClickTargetsPlugin extends Gdn_Plugin {
