@@ -1,4 +1,4 @@
-<?php if (!defined('APPLICATION')) exit();
+<?php
 
 $PluginInfo['IncreaseClickTargets'] = array(
     'Name' => 'Increase Click Targets',
@@ -13,8 +13,8 @@ $PluginInfo['IncreaseClickTargets'] = array(
 
 class IncreaseClickTargetsPlugin extends Gdn_Plugin {
 
-    public function Base_Render_Before($Sender) {
-        $Sender->AddJsFile('increaseclicktargets.js', 'plugins/IncreaseClickTargets');
+    public function base_render_before($sender) {
+        $sender->addJsFile('increaseclicktargets.js', 'plugins/IncreaseClickTargets');
     }
 
 }
