@@ -4,7 +4,7 @@
 jQuery.fn.increaseClickTarget = function (link, exclude, deferred) {
     'use strict';
 
-    return this.on('click', deferred || '', function (e) {
+    return this.on('click', deferred || null, function (e) {
         var href = jQuery(this).find(link).attr('href');
         if (!jQuery(e.target).is(exclude || '') && href !== undefined) {
             document.location = href;
