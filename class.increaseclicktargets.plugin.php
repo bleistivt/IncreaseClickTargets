@@ -1,6 +1,6 @@
 <?php
 
-$PluginInfo['IncreaseClickTargets'] = array(
+$PluginInfo['IncreaseClickTargets'] = [
     'Name' => 'Increase Click Targets',
     'Description' => 'Makes the whole row clickable for various items.',
     'Version' => '0.2',
@@ -9,7 +9,7 @@ $PluginInfo['IncreaseClickTargets'] = array(
     'Author' => 'Bleistivt',
     'AuthorUrl' => 'http://bleistivt.net',
     'License' => 'GNU GPL2'
-);
+];
 
 class IncreaseClickTargetsPlugin extends Gdn_Plugin {
 
