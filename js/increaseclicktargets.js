@@ -46,8 +46,8 @@ jQuery(function ($) {
 
     // MeMenu
     $('#Panel')
-        .increaseClickTarget('a:last', null, 'div.MeMenu li.Item')
-    $('div.MeMenu').on('hover', 'li.Item', function () {
+        .increaseClickTarget('a:last', null, 'div.MeMenu li.Item:not(.Title)')
+    $('div.MeMenu').on('hover', 'li.Item:not(.Title)', function () {
             $(this).css('cursor', 'pointer');
     });
 
