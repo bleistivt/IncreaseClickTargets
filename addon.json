@@ -1,0 +1,15 @@
+{
+    "name": "Increase Click Targets",
+    "description": "Makes the whole row clickable for various items.",
+    "version": "0.4",
+    "mobileFriendly": false,
+    "license": "GNU GPL2",
+    "key": "increaseclicktargets",
+    "type": "addon",
+    "authors": [
+        {
+            "name": "Bleistivt",
+            "homepage": "http://bleistivt.net"
+        }
+    ]
+}
