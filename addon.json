@@ -4,6 +4,7 @@
     "version": "0.4",
     "mobileFriendly": false,
     "license": "GNU GPL2",
+    "gitHub": "bleistivt/IncreaseClickTargets",
     "key": "increaseclicktargets",
     "type": "addon",
     "authors": [
